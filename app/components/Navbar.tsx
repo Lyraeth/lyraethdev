@@ -3,14 +3,8 @@
 import { cn } from "@/lib/utils";
 import { Terminal } from "lucide-react";
 import { motion } from "motion/react";
-import { Nunito } from "next/font/google";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const nunito = Nunito({
-    weight: "400",
-    subsets: ["latin"],
-});
 
 const MenuItems = [
     {
@@ -27,8 +21,8 @@ export default function Navbar() {
     const path = usePathname();
     return (
         <div className="fixed left-0 right-0">
-            <div className={nunito.className}>
-                <nav className="max-w-screen-sm mx-auto max-sm:px-4 py-6 backdrop-blur-md">
+            <div className="w-full backdrop-blur-sm font-nunito">
+                <nav className="max-w-screen-md mx-auto max-sm:px-4 py-6">
                     <div className="flex flex-row w-full justify-between">
                         <div className="p-1">
                             <div className="flex flex-row">
