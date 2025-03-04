@@ -87,7 +87,6 @@ export default function Project() {
                     >
                         My Project
                     </motion.h3>
-
                     <motion.ol
                         initial="hidden"
                         whileInView="visible"
