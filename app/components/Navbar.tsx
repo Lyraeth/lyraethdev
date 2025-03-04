@@ -15,6 +15,10 @@ const MenuItems = [
         name: "Project",
         url: "/project",
     },
+    {
+        name: "Contact",
+        url: "/contact",
+    },
 ];
 
 export default function Navbar() {
