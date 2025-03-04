@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <section className="max-w-screen-md mx-auto max-sm:px-4 items-center min-h-screen py-8 font-poppins">
             <div className="flex flex-col mt-20">
-                <article className="prose prose-md prose-p:dark:text-slate-200 prose-h3:dark:text-yellow-400">
+                <article className="prose prose-md md:prose-xl prose-p:dark:text-slate-200 prose-h3:dark:text-yellow-400">
                     <motion.h3
                         initial="hidden"
                         animate="visible"
